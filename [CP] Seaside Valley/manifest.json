@@ -1,0 +1,46 @@
+{
+    "Name": "Seaside Valley",
+    "Author": "rainkius",
+    "Version": "2.1",
+	"Description": "Town buildings recolored to a more muted, New England-inspired palette",
+    "UniqueID": "rainkius.SeasideValley",
+    "MinimumApiVersion": "4.0.0",
+    "UpdateKeys": ["Nexus:6733"],
+	"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+	   {
+		  "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+		  "IsRequired": false
+	   },
+	   {
+		  "UniqueID": "minervamaga.CP.ATDSV",
+		  "IsRequired": false
+	   },
+       {
+		  "UniqueID": "Acerbicon.Recolor",
+		  "IsRequired": false
+	   },
+       {
+		  "UniqueID": "DaisyNiko.EarthyRecolour",
+		  "IsRequired": false
+	   },
+       {
+		  "UniqueID": "minervamaga.CP.eemieMapRecolour",
+		  "IsRequired": false
+	   },
+       {
+		  "UniqueID": "kaya.floralvalley",
+		  "IsRequired": false
+	   },
+       {
+		  "UniqueID": "Lita.StarblueValley",
+		  "IsRequired": false
+	   },
+       {
+		  "UniqueID": "stardewfoliageredone",
+		  "IsRequired": false
+	   }
+	]
+}

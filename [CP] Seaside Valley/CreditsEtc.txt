@@ -1,0 +1,64 @@
+Many thanks to Gweniaczek for helping me fix some issues!
+
+Required mods: 
+- Content Patcher
+- SMAPI 
+
+---------------
+ DESC OF USES:
+---------------
+Harvey's Clinic/Pierre's Shop: Rhodox for base/shading of plaster & framing texture on Harvey's clinic, Wood texture used on Harvey's door & pierre siding, Stone texture over bricks & chimney
+
+Stardrop Saloon: Rhodox for base/shading of brick texture
+
+1 River Road (Alex/Evelyn/George): Rhodox for base/shading of stucco texture & front door, and flower in planter during spring/summer/fall
+
+2 River Road (Penny/Pam) - House version: Rhodox for base/shading of siding texture & front door
+
+1 Willow Lane (Sam/Jodi/Vincent/Kent): Rhodox for base/shading of siding texture
+
+2 Willow Lane (Emily/Haley): Squiver for the flowers in the planter during Spring, Summer & Fall. Rhodox for base/shading of front door, snowman face during winter
+
+Ice Cream Stand: Rhodox for wood & countertop textures and flowers in spring & fall. Cometkins for pumpkin & red mushroom in fall. 
+
+Playground Area: Rhodox for wood textures
+
+Community Center: Rhodox for texture of steps on fixed-up version (Andesite). Seasonal planter flowers/crops from Cometkins's Better Crops & Foraging.
+
+Mayor's House: Ayene-chan for shingle siding texture. Rhodox for horizontal wood siding. Doors and windows from Magimatica's Hudson Valley Buildings. 
+
+Museum: Rhodox for wood texture on siding
+
+Town Non-Buildings: Rhodox for stone texture applied over bridge
+
+Leah Cottage: Rhodox for textures used in cobblestone wall area
+
+Adventurer's Guild: Rhodox for andesite texture on chimney
+
+Bathhouse Exterior: Rhodox for marble tiles and bricks, and the front door
+
+Bathhouse Interior: Rhodox for marble tiles, marble pattern, patterns on walls
+
+Willy's Boat: Rhodox for wood textures on deck & upright slats on helm area
+
+Festivals: Rhodox for stone and wood textures. Cometkins for produce, artisan goods, etc in the granges (Better Crops etc)
+
+1.6 Festivals: Fishing Derby - The trout on the tent uses Cometkins' sprite for its colors. Desert Festival - the rugs are all from online stores (much reduced). 
+
+
+--------------------
+      LINKS:
+--------------------      
+Cometkins:
+https://www.nexusmods.com/stardewvalley/users/38715215?tab=user+files
+
+Squiver: 
+https://www.nexusmods.com/stardewvalley/mods/5409
+
+Ayene-Chan:
+https://www.deviantart.com/ayene-chan
+
+Magimatica:
+https://www.nexusmods.com/stardewvalley/mods/1478
+
+Rhodox: Formerly painterlypack.net - no longer up. Twitter -- https://twitter.com/PainterlyPack/status/721203991829327872

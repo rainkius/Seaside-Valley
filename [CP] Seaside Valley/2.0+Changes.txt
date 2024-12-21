@@ -1,0 +1,32 @@
+2.1 Changes:
+- Removed all interiors - they are now part of my Seaside Interiors mod
+- Added a blue version of the Joja building exterior (because I did a blue version of all the Joja stuff in the interiors mod... felt like I had to haha)
+- Corrected sprites for when your character sits on the town benches or picnic table
+- Corrected the Fall Festival spinning wheel game mini-game screen. It only modifies the parts that come from my edits (tents, barrels, the wheel), not any part that relates to your enviroment recolor (the cobbles, dirt)
+- Edited sprite sheets for the new festivals introduced in 1.6 - the fishing derby, squidfest, and the desert festival. They are overlays so any parts you don't want can be deleted.
+- Made a few minor edits to Willy's boat, and also edited the spritesheet for the boat tunnel itself. 
+- Still has SVE compatibility - matches the granges during the fall festival, and makes sure the SVE Dusty shows up.
+
+------------------------------------------------------------------------------
+
+Seaside Valley 2.0 Changes:
+
+** Due to the permissions changing on Eemie's textures since I originally made this, I have removed her flowers from Emily/Haley's house & the ice cream stand, and have redone the Mayor's house. (I did email the new manager for permission, but didn't want to hold up the release of this while waiting to hear back. :) ) **
+
+- Made each change a config option, rather than modifying the whole town/outdoors/beach tilesheet. Use Generic Mod Config Menu to easily select them from the game menu! (Not required but recommended)
+- Cut the snow out of all the winter versions so that whatever environment recolor you have shows through. When that wasn't possible, provided automatic recolors for DaisyNiko's Earthy Recolour, A Wittily Named Recolor, and Vibrant Pastoral Recolor. If you don't have any of those, it defaults to vanilla colors. 
+- Recolored non-English textures (signs etc). For the night market, Willy's shop is now signless like in the vanilla game (but the colors match). Note - I used whatever the game files provided. Sometimes a language is missing (for example, there is no Japanese variant of the bathhouse changing room door signs) or the provided texture didn't translate everything. I don't have translations for the config options, since I'd have to rely on google translate. 
+- Got rid of the decorations on Pam & Penny's trailer in the spring
+- A few seasonal edits to Sam/Jodi/Kent/Vincent house: no more jack o lantern in fall, or basket in spring
+- Blacksmith's roof in winter doesn't match the tile shape of the other seasons in Vanilla, so you can toggle my fix (will choose a recolor automatically) (Makes tiles rounded in winter, like the other seasons)
+- Community Center - fixed the hanging chain thing on the restored sign (was mixing a pixel) and darkened it. Replaced flowers in the planter: Spring are Cometkin's tulips (Better Crops & Foraging), summer are Cometkin's summer spangles, and fall are their bok choy. Replaced hanging basket flower with a painterly pack flower for spring, summer and fall.
+- Stardrop Saloon - replaced sign with new 1.6 version (light, etc). Removed some seasonal deco (jack o lantern in fall , lanterns in winter) because they looked too flat.
+- Town Non-Buildings: No longer makes edits to flowers & pots, the seasonal town centerpiece (i.e. the hay bale in fall), the shovel & board deco, or the planter & dirt, as it makes more sense for these to be handled by your environment recolor. Doghouse-related edits are now limited to just the sign and nice doghouse. Cleaned up the Dog sign (no more paint splatters/drips) & got rid of curtains in doghouse. The mailbox is now only the metal top, so the wooden post will be from whatever recolor you are using.
+- Bathhouse Exterior - fountain water removed to allow environment recolor water.
+- Emily & Haley's House now has seasonal wildflowers from Squiver in their planter during non-Winter seasons. (I figured Emily would love a Pollinator Supporting Garden!)
+- The Mayor's house is now different colors and uses different assets for the windows, door, and siding. Please see the updated credits page.
+- Slight changes to the deco on top of the ice cream stand during fall & spring. Got rid of Eemie flowers in spring. Replaced vanilla plant in fall with something prettier, and redid the mushroom box to have Cometkins red mushrooms.
+- Revamped the festival overlay: While it still edits lots of things, it doesn't do as much. Granges are stocked with Cometkins Better Crops/Fish/etc. Fixed that the festivals edits were only applied if you had SVE (no idea why I wrote it that way, and I never noticed it didn't work because I did my checking with SVE installed...). 
+- Modified the interiors of Ginger Island locations: Field Office, Hut, and Treehouse
+
+** This should be compatible with Stardew Valley Expanded. It doesn't modify any SVE buildings, it just fixes a few graphical issues related to using my recolor. I couldn't fully test it so please report problems! Specifically: An additional piece of joja countertop, Movie Theater counter, and fixed the additional fall fair granges so they match the other festival ones (only if you have those options enabled). Reapplies Dusty's overlay to town so it's on top of my edits - ADDITIONALLY - if you have Earthy, VPR or AWNR installed, Dusty's sprite is just a LITTLE toned down so it's not as jarring. If you have none of those, defaults to his normal, more saturated sprite.

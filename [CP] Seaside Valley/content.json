@@ -1,0 +1,1341 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+        //Homes (does not include shops)
+        "Alex": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Homes"
+		},
+        "Elliott": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Homes"
+		},
+        "EmilyHaley": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Homes"
+		},
+        "Leah": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Homes"
+		},
+        "PamPenny": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Homes"
+		},
+        "Sam": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Homes"
+		},        
+        //Town Edits (that aren't homes)
+		"Blacksmith": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "BSSnowRoofFix": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "Fixes the snowy roof of the blacksmith to match the rounded tiles look of the other seasons. Color based on your environment recolor automatically.",
+            "Section": "Town"
+		},  
+        "ClinicStore": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "Harvey's Clinic & Pierre's Store",
+            "Section": "Town"
+		},
+        "CommunityCenter": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "IceCreamStand": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "JojaMart": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "JojaColor": {
+			"AllowValues": "blue, green",
+			"Default": "green",
+            "Section": "Town"
+		},
+        "Mayor": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "MovieTheater": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "Museum": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "Playground": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "Saloon": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "TownBenches": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "Benches and Picnic Table recolored to white",
+            "Section": "Town"
+		},
+        "TownBridge": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "TownDogHouse": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "TownFences": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "TownLamppost": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "TownMailbox": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "TownPamDeco": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "Chair and table with bottle of booze outside Pam's house",
+            "Section": "Town"
+		},
+        "TownParking": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        // Forest & Mountains
+        "AdventurersGuild": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Forest & Mountains"
+		},
+        "Bathhouse": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Forest & Mountains"
+		},
+        "Carpenter": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Forest & Mountains"
+		},
+        "Marnie": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Forest & Mountains"
+		},
+        "Wizard": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Forest & Mountains"
+		},
+        // Beach & Island
+        "DockLamppost": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "The lamppost on the docks in the beach area",
+            "Section": "Beach & Island"
+		},
+        "WillysShop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Beach & Island"
+		},
+        "WillysBoat": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "Both Willy's boat and the area it is stored in",
+            "Section": "Beach & Island"
+		},        
+        //Misc Edits
+		"SewerBug": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Misc"
+		},
+        "WitchSwamp": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Misc"
+		},
+        "Festivals": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "Modify all festivals, including the new ones from 1.6",
+            "Section": "Misc"
+		},
+        
+	},
+	
+	"DynamicTokens": [
+		{
+		"Name": "SVE",
+		"Value": "false",
+		},
+		{
+		"Name": "SVE",
+		"Value": "true",
+			"When": { "HasMod" : "FlashShifter.StardewValleyExpandedCP"},
+		},
+        {
+		"Name": "recolor",
+		"Value": "vanilla",
+		},
+		{
+		"Name": "recolor",
+		"Value": "earthy",
+			"When": { "HasMod" : "DaisyNiko.EarthyRecolour"},
+		},
+        {
+        "Name": "recolor",
+		"Value": "awnr",
+			"When": { "HasMod" : "Acerbicon.Recolor"},
+		},
+        {
+		"Name": "recolor",
+		"Value": "vpr",
+			"When": { "HasMod" : "grapeponta.VibrantPastoralRecolor"},
+		},
+	],
+	
+	"Changes": [
+		
+	//Beach Edits
+		{
+			"LogName": "Elliott Exterior",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_beach",
+            "FromFile": "assets/Maps/elliott_{{season}}.png",
+            "When": {
+			"Elliott": true
+			}
+		},
+        {
+			"LogName": "Willy's Shop",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_beach",
+            "FromFile": "assets/Maps/willy_{{season}}.png",
+            "When": {
+			"WillysShop": true
+			}
+		},
+        {
+			"LogName": "Willy's Shop during Night Market",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/night_market_tilesheet_objects",
+            "FromFile": "assets/Maps/{{TargetWithoutPath}}_willy.png",
+            "When": {
+			"WillysShop": true
+			}
+		},
+        {
+			"LogName": "Willy's Shop Int'l versions",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_beach",
+            "FromFile": "assets/Maps/Translations/willy.{{language}}.png",
+            "When": {
+			"WillysShop": true,
+            "Language": "es, fr, hu, it, ja, ko, pt, ru, tr, zh"
+			}
+		},
+        {
+			"LogName": "Dock Lamppost",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_beach",
+            "FromFile": "assets/Maps/lamppostB_{{season}}.png",
+            "When": {
+			"DockLamppost": true
+			}
+		},
+        {
+			"LogName": "Willy's Boat", //1.5 Addition
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/WillysBoat",
+            "FromFile": "assets/LooseSprites/WillysBoat.png",
+			"When": {
+			"WillysBoat": true
+			}
+		},
+        {
+			"LogName": "Willy's Boat Tunnel", //1.5 Addition
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/boatTunnelTiles",
+            "FromFile": "assets/Maps/boatTunnelTiles.png",
+			"When": {
+			"WillysBoat": true
+			}
+		},
+		
+		
+	//Town Edits
+        {
+            "LogName": "Alex etc House",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/alex_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Alex": true
+			}
+        },
+        {
+            "LogName": "Emily & Haley House",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/emily_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"EmilyHaley": true
+			}
+        },
+        {
+            "LogName": "Emily & Haley planter snowman recolor",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/emily_{{recolor}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"EmilyHaley": true,
+            "recolor": "earthy, vpr, awnr",
+			}
+        },
+        {
+            "LogName": "Pam & Penny - Trailer",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/penny-trailer_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"PamPenny": true
+			}
+        },
+        {
+            "LogName": "Pam & Penny - House",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/penny-house_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"PamPenny": true
+			}
+        },
+        {
+            "LogName": "Sam, Jodi, Vincent & Kent House",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/sam_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Sam": true
+			}
+        },
+        {
+            "LogName": "Blacksmith",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/blacksmith_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Blacksmith": true
+			}
+        },
+        {
+            "LogName": "Blacksmith Snowy Roof fix",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/blacksmith_snowyroof_{{recolor}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Blacksmith": true,
+            "BSSnowRoofFix": true,
+			}
+        },
+        //Blacksmith-related cursors recolor (Animated door & ductwork)
+        {
+            "LogName": "Blacksmith Furnance Cursors",
+			"Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/LooseSprites/Cursors_Blacksmith.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Blacksmith": true
+			}
+        },
+        {
+            "LogName": "Harvey Clinic & Pierre's",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/pierreclinic_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"ClinicStore": true
+			}
+        },
+        {
+			"LogName": "Pierre's Sign Int'l versions",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/pierre.{{language}}.png",
+            "When": {
+			"ClinicStore": true,
+            "Language": "es, fr, hu, it, ja, ko, pt, ru, tr, zh"
+			}
+		},
+        {
+            "LogName": "Community Center",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/commcenter_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"CommunityCenter": true
+			}
+        },
+        {
+            "LogName": "Community Center Snowmen",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/commcenter-snowmen_{{recolor}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"CommunityCenter": true
+			}
+        },
+        {
+			"LogName": "Community Center Sign cover English for intl",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/commcenter_intl_{{season}}.png",
+            "When": {
+			"CommunityCenter": true, 
+            "Language": "es, fr, hu, ja, ko, pt, ru, tr, zh" //ITALIAN NAME IS SAME AS ENGLISH
+			}
+		},
+        {
+			"LogName": "Community Center Sign Int'l versions",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/commcenter.{{language}}.png",
+            "When": {
+			"CommunityCenter": true, 
+            "Language": "es, fr, hu, ja, ko, pt, ru, tr, zh" //ITALIAN NAME IS SAME AS ENGLISH
+			}
+		},
+        {
+            "LogName": "Ice cream stand",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/icecream_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"IceCreamStand": true
+			}
+        },
+        {
+            "LogName": "Ice cream stand - Fall fix",
+			"Action": "EditImage",
+            "Target": "Maps/fall_town",
+            "FromFile": "assets/Maps/icecream_fall.png",
+            "PatchMode": "Replace",
+            "FromArea": { "X": 493, "Y": 606, "Width": 2, "Height": 5 },
+			"ToArea": { "X": 493, "Y": 606, "Width": 2, "Height": 5 },
+            "When": {
+			"IceCreamStand": true,
+			}
+        },
+        {
+            "LogName": "Ice cream stand - shadow fix",
+			"Action": "EditImage",
+            "Target": "Maps/fall_town, Maps/spring_town",
+            "FromFile": "assets/Maps/icecream_shadowfix.png",
+            "PatchMode": "Replace",
+            "ToArea": { "X": 461, "Y": 610, "Width": 1, "Height": 6 },
+            "When": {
+			"IceCreamStand": true,
+			}
+        },
+        {
+            "LogName": "Ice cream stand snow",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/icecreamsnow_{{recolor}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"IceCreamStand": true
+			}
+        },
+        {
+            "LogName": "Joja Mart",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/jojamart_{{season}}_{{JojaColor}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"JojaMart": true
+			}
+        },
+        {
+            "LogName": "JojaMart Warehouse Cursors",
+			"Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/LooseSprites/JojaWarehouse_Cursors_{{JojaColor}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"JojaMart": true
+			}
+            
+        },
+        {
+            "LogName": "Joja Mart Intl",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/jojamart_{{JojaColor}}.{{language}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"JojaMart": true,
+            "Language": "es, fr, hu, it, ja, pt, tr, zh" //Korean & Russian need different winter overlays bc of Joja Truck text
+			}
+        },
+        {
+            "LogName": "Joja Mart Korean & Russian Not-Winter",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/jojamart_{{JojaColor}}.{{language}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"JojaMart": true,
+            "Season": "spring, summer, fall",
+            "Language": "ko, ru" //Korean & Russian need different winter overlays bc of Joja Truck text
+			}
+        },
+        {
+            "LogName": "Joja Mart Korean & Russian Winter",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/Translations/jojamart_{{JojaColor}}_winter.{{language}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"JojaMart": true,
+            "Season": "winter",
+            "Language": "ko, ru" //Korean & Russian need different winter overlays bc of Joja Truck text
+			}
+        },
+        {
+            "LogName": "Mayor's Manor",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/mayor_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Mayor": true
+			}
+        },
+        {
+            "LogName": "Movie Theater",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/movietheater_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"MovieTheater": true
+			}
+        },
+        {
+			"LogName": "Movie Theater Signs Int'l versions",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/movietheater.{{language}}.png",
+            "When": {
+			"MovieTheater": true,
+            "Language": "es, fr, hu, it, ja, ko, pt, ru, tr, zh"
+			}
+		},
+        {
+            "LogName": "Museum",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/museum_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Museum": true
+			}
+        },
+        {
+            "LogName": "Playground",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/playground_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Playground": true
+			}
+        },
+        {
+            "LogName": "Playground Horse replacement",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/playground_{{season}}.png",
+            "FromArea": { "X": 162, "Y": 531, "Width": 31, "Height": 28 },
+			"ToArea": { "X": 162, "Y": 531, "Width": 31, "Height": 28 },
+            "PatchMode": "Replace",
+            "When": {
+			"Playground": true
+			}
+        },
+        {
+            "LogName": "Playground Snow on Horse",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/playground_{{recolor}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Playground": true
+			}
+        },
+        {
+            "LogName": "Saloon",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/saloon_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Saloon": true
+			}
+        },
+        {
+			"LogName": "Saloon Signs Int'l versions",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/saloon.{{language}}.png",
+            "When": {
+			"Saloon": true,
+            "Language": "es, fr, hu, it, ja, ko, pt, ru, tr, zh"
+			}
+		},
+        {
+            "LogName": "Town - Benches",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/townbenches.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownBenches": true,
+            "Season": "Spring, Summer, Fall",
+			}
+        },
+        {
+            "LogName": "Town - Benches",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/townbenches_winter.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownBenches": true,
+			}
+        },
+        {
+            "LogName": "Town - Benches ChairTiles",
+			"Action": "EditImage",
+            "Target": "TileSheets/ChairTiles",
+            "FromFile": "assets/TileSheets/ChairTiles.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownBenches": true,
+			}
+        },
+        {
+            "LogName": "Town - Bridge",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/townbridge_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownBridge": true
+			}
+        },
+        {
+            "LogName": "Bridge Shadow fix", //Fix for bridge shadow
+			"Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/bridgeshadowfix_{{season}}.png",
+            "FromArea": { "X": 500, "Y": 69, "Width": 12, "Height": 74 },
+			"ToArea": { "X": 500, "Y": 69, "Width": 12, "Height": 74 },
+            "When": {
+			"TownBridge": true
+			}
+        },
+        {
+            "LogName": "Town - Dog House",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/doghouse_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownDogHouse": true
+			}
+        },
+        {
+			"LogName": "Town - Doghouse Int'l versions",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/Translations/doghouse.{{language}}.png",
+            "When": {
+			"TownDogHouse": true,
+            "Language": "es, fr, hu, it, ja, ko, pt, ru, tr, zh"
+			}
+		},
+        {    // SVE - Adds Dusty to doghouse - top
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyTop.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 336, "Y": 1024, "Width": 16, "Height": 16 },
+			"When": { 
+            "LocationName": "Town",
+            "SVE": true, 
+            "Recolor": "vanilla"
+            },
+			"Update": "OnLocationChange"
+		},
+		
+		{    //SVE - Adds Dusty to doghouse - bottom
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyBottom.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 384, "Y": 992, "Width": 16, "Height": 16 },
+			"When": { 
+            "LocationName": "Town",
+            "SVE": true, 
+            "Recolor": "vanilla"
+            },
+			"Update": "OnLocationChange"
+		},
+		
+		{    //SVE - Adds Dusty to doghouse - top - town festivals
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyTop.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 336, "Y": 1024, "Width": 16, "Height": 16 },
+			"When": { 
+            "DayEvent": "egg festival, stardew valley fair, spirit's eve, feast of the winter star",
+            "SVE": true, 
+            "Recolor": "vanilla"
+            }
+		},
+		
+		{    //SVE - Adds Dusty to doghouse - bottom - town festivals
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyBottom.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 384, "Y": 992, "Width": 16, "Height": 16 },
+			"When": { 
+            "DayEvent": "egg festival, stardew valley fair, spirit's eve, feast of the winter star",
+            "SVE": true, 
+            "Recolor": "vanilla"
+            }
+		},
+        {    // SVE - Adds Dusty to doghouse - top DESAT
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyTop_desat.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 336, "Y": 1024, "Width": 16, "Height": 16 },
+			"When": { 
+            "LocationName": "Town",
+            "SVE": true, 
+            "Recolor": "earthy, vpr, awnr"
+            },
+			"Update": "OnLocationChange"
+		},
+		
+		{    //SVE - Adds Dusty to doghouse - bottom DESAT
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyBottom_desat.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 384, "Y": 992, "Width": 16, "Height": 16 },
+			"When": { 
+            "LocationName": "Town",
+            "SVE": true, 
+            "Recolor": "earthy, vpr, awnr"
+            },
+			"Update": "OnLocationChange"
+		},
+		
+		{    //SVE - Adds Dusty to doghouse - top - town festivals DESAT
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyTop_desat.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 336, "Y": 1024, "Width": 16, "Height": 16 },
+			"When": { 
+            "DayEvent": "egg festival, stardew valley fair, spirit's eve, feast of the winter star",
+            "SVE": true, 
+            "Recolor": "earthy, vpr, awnr"
+            }
+		},
+		
+		{    //SVE - Adds Dusty to doghouse - bottom - town festivals DESAT
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_town",
+			"FromFile": "assets/Maps/SVE/DustyBottom_desat.png",
+			"PatchMode": "Overlay",
+			"ToArea": { "X": 384, "Y": 992, "Width": 16, "Height": 16 },
+			"When": { 
+            "DayEvent": "egg festival, stardew valley fair, spirit's eve, feast of the winter star",
+            "SVE": true, 
+            "Recolor": "earthy, vpr, awnr"
+            }
+		},
+        {
+            "LogName": "Town - Fences",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/fences_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownFences": true
+			}
+        },
+        {
+            "LogName": "Town - Lamppost",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/townlamppost.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownLamppost": true,
+            "Season": "Spring, Summer, Fall"
+			}
+        },
+        {
+            "LogName": "Town - Lamppost",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/townlamppost_winter.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownLamppost": true
+			}
+        },
+        {
+            "LogName": "Town - Mailbox",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/townmailbox.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownMailbox": true
+			}
+        },
+        {
+            "LogName": "Town - Pam Deco",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/townpamdeco_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownPamDeco": true
+			}
+        },
+        //Replacement of Pam Deco bottle - transparency
+		{
+            "LogName": "Town - Pam Deco - Beer bottle opacity fix",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/townpamdeco_{{season}}.png",
+            "FromArea": { "X": 356, "Y": 568, "Width": 7, "Height": 8 },
+			"ToArea": { "X": 356, "Y": 568, "Width": 7, "Height": 8 },
+            "PatchMode": "Replace",
+            "When": {
+			"TownPamDeco": true
+			}
+        },
+        {
+            "LogName": "Town - Parking Lot",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/parkinglot.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"TownParking": true
+			}
+        },
+        //Fix for missing icicles on buildings when using earthy recolour
+        {
+            "LogName": "Earthy Recolour Icicles - Alex",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 278, "Y": 78, "Width": 85, "Height": 42},
+			"ToArea": { "X": 278, "Y": 78, "Width": 85, "Height": 42 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "Alex": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Emily",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 4, "Y": 75, "Width": 117, "Height": 21 },
+			"ToArea": { "X": 4, "Y": 75, "Width": 117, "Height": 21 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "EmilyHaley": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Pam",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 413, "Y": 717, "Width": 65, "Height": 26 },
+			"ToArea": { "X": 413, "Y": 717, "Width": 65, "Height": 26 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "PamPenny": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Sam",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 146, "Y": 73, "Width": 60, "Height": 40 },
+			"ToArea": { "X": 146, "Y": 73, "Width": 60, "Height": 40 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "Sam": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Blacksmith",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 411, "Y": 43, "Width": 62, "Height": 32 },
+			"ToArea": { "X": 411, "Y": 43, "Width": 62, "Height": 32 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "Blacksmith": true,
+            "BSSnowRoofFix": false,
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Clinic & Store",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 0, "Y": 191, "Width": 226, "Height": 89 },
+			"ToArea": { "X": 0, "Y": 191, "Width": 226, "Height": 89 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "ClinicStore": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Clinic & Store",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 0, "Y": 191, "Width": 226, "Height": 89 },
+			"ToArea": { "X": 0, "Y": 191, "Width": 226, "Height": 89 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "ClinicStore": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Comm Center",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 15, "Y": 702, "Width": 361, "Height": 33 },
+			"ToArea": { "X": 15, "Y": 702, "Width": 361, "Height": 33 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "CommunityCenter": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Museum",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 116, "Y": 362, "Width": 80, "Height": 24 },
+			"ToArea": { "X": 116, "Y": 362, "Width": 80, "Height": 24 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "Museum": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Saloon",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 254, "Y": 243, "Width": 85, "Height": 24 },
+			"ToArea": { "X": 254, "Y": 243, "Width": 85, "Height": 24 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "Saloon": true
+			}
+        },
+        {
+            "LogName": "Earthy Recolour Icicles - Doghouse",
+			"Action": "EditImage",
+            "Target": "Maps/winter_town",
+            "FromFile": "assets/Maps/town_earthyiciclefix.png",
+            "FromArea": { "X": 328, "Y": 1010, "Width": 30, "Height": 13 },
+			"ToArea": { "X": 328, "Y": 1010, "Width": 30, "Height": 13 },
+            "PatchMode": "Overlay",
+            "When": {
+			"Recolor": "earthy",
+            "TownDogHouse": true
+			}
+        },
+        
+    //Forest & Mountains Edits - Outdoors tilesheet
+        {
+            "LogName": "Adventurers Guild",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/adventurersguild_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"AdventurersGuild": true
+			}
+        },
+        {
+            "LogName": "Adventurers Guild Icicles",
+			"Action": "EditImage",
+            "Target": "Maps/winter_outdoorsTileSheet",
+            "FromFile": "assets/Maps/adventurersguild_icicles.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"AdventurersGuild": true,
+            "Recolor": "earthy",
+			}
+        },
+        {
+            "LogName": "Bathhouse",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/bath_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Bathhouse": true
+			}
+        },
+        {
+            "LogName": "Bathhouse Roof transparency",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/bath_{{season}}.png",
+            "FromArea": { "X": 0, "Y": 848, "Width": 255, "Height": 48 },
+			"ToArea": { "X": 0, "Y": 848, "Width": 255, "Height": 48 },
+            "FromFile": "assets/Maps/bath_{{season}}.png",
+            "PatchMode": "Replace",
+            "When": {
+			"Bathhouse": true
+			}
+        },
+        {
+            "LogName": "Bathhouse Intl Sign",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/Translations/bath.{{language}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Bathhouse": true,
+            "Language": "es, fr, hu, it, ja, ko, pt, ru, tr, zh"
+			}
+        },
+        {
+            "LogName": "Bathhouse Icicles",
+			"Action": "EditImage",
+            "Target": "Maps/winter_outdoorsTileSheet",
+            "FromFile": "assets/Maps/bath_icicles.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Bathhouse": true,
+            "Recolor": "earthy",
+			}
+        },
+        {
+            "LogName": "Carpenter's Shop",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/carpenter_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Carpenter": true
+			}
+        },
+        {
+            "LogName": "Carpenter Icicles",
+			"Action": "EditImage",
+            "Target": "Maps/winter_outdoorsTileSheet",
+            "FromFile": "assets/Maps/carpenter_icicles.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Carpenter": true,
+            "Recolor": "earthy",
+			}
+        },
+        {
+            "LogName": "Leah",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/leah_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Leah": true
+			}
+        },
+        {
+            "LogName": "Leah Icicles",
+			"Action": "EditImage",
+            "Target": "Maps/winter_outdoorsTileSheet",
+            "FromFile": "assets/Maps/leah_icicles.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Leah": true,
+            "Recolor": "earthy",
+			}
+        },
+        {
+            "LogName": "Marnie's Shop",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/marnie_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Marnie": true
+			}
+        },
+        {
+            "LogName": "Marnie's Sign Fix",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/marnie_{{season}}.png",
+            "FromArea": { "X": 320, "Y": 128, "Width": 16, "Height": 15 },
+			"ToArea": { "X": 320, "Y": 128, "Width": 16, "Height": 15 },
+            "PatchMode": "Replace",
+            "When": {
+			"Marnie": true
+			}
+        },
+        {
+            "LogName": "Marnie Icicles",
+			"Action": "EditImage",
+            "Target": "Maps/winter_outdoorsTileSheet",
+            "FromFile": "assets/Maps/marnie_icicles.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Marnie": true,
+            "Recolor": "earthy",
+			}
+        },
+        {
+            "LogName": "Wizard Tower",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/wizardtower_{{season}}.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Wizard": true
+			}
+        },
+        {
+            "LogName": "Wizard Tower Icicles",
+			"Action": "EditImage",
+            "Target": "Maps/winter_outdoorsTileSheet",
+            "FromFile": "assets/Maps/wizardtower_icicles.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Wizard": true,
+            "Recolor": "earthy",
+			}
+        },
+                
+    //Misc Edits
+        {
+		"LogName": "Sewer - Bug Area",
+		"Action": "Load",
+		"Target": "Maps/bugLandTiles",
+		"FromFile": "assets/Maps/bugLandTiles.png",
+		"When": {
+				"SewerBug": true
+			}
+		},
+        {
+		"LogName": "Witch Swamp",
+		"Action": "Load",
+		"Target": "Maps/witchSwampTiles",
+		"FromFile": "assets/Maps/witchSwampTiles.png",
+		"When": {
+				"WitchSwamp": true
+			}
+		},
+        {
+			"LogName": "Festivals",  //includes 1.6 updates
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/Festivals, Maps/FishingDerbyTiles, Maps/desert_festival_tilesheet",
+			"FromFile": "assets/Maps/{{TargetWithoutPath}}.png",
+			"When": {
+				"Festivals": true,
+			}
+		},
+        {
+			"LogName": "Festivals Cursors",  //makes fall spinning wheel screen match my edits
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/LooseSprites/{{TargetWithoutPath}}_Festival.png",
+			"When": {
+				"Festivals": true,
+			}
+		},
+        {
+			"LogName": "Festivals Intl Signs",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/Festivals",
+			"FromFile": "assets/Maps/Festivals.{{language}}.png",
+			"When": {
+				"Festivals": true,
+                "Language": "es, fr, hu, it, ja, ko, pt, ru, tr, zh"
+			}
+		},
+        {
+			"LogName": "Festivals - SVE Granges Fix",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/Maps/SVE/SVE_FestivalGranges.png",
+			"When": {
+				"SVE": true,
+				"Festivals": true,
+			}
+		},
+		{
+			"LogName": "Festivals - Luau Marnie fix",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Characters/Marnie",
+			"FromFile": "assets/Maps/MarnieLuau.png",
+			"When": {
+				"Festivals": true,
+			}
+		},
+        {
+			"LogName": "Fishing Derby Translations",  //1.6 update
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/FishingDerbyTiles",
+			"FromFile": "assets/Maps/Translations/{{TargetWithoutPath}}.{{language}}.png",
+			"When": {
+				"Festivals": true,
+                "Language": "fr, ru"    //French & Russian have actual translations, all others use intl sprite sheet with no text
+			}
+		},
+        {
+			"LogName": "Fishing Derby Translations",  //1.6 update
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/FishingDerbyTiles",
+			"FromFile": "assets/Maps/Translations/{{TargetWithoutPath}}.intl.png",
+			"When": {
+				"Festivals": true,
+                "Language": "es, hu, it, ja, ko, pt, tr, zh"    //French & Russian have actual translations, all others use intl sprite sheet with no text
+			}
+		},
+        {
+			"LogName": "Desert Festival Translation",  //1.6 update
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/desert_festival_tilesheet",
+			"FromFile": "assets/Maps/Translations/{{TargetWithoutPath}}.{{language}}.png",
+			"When": {
+				"Festivals": true,
+                "Language": "ru"    //Russian is the only one with custom text on cardboard box
+			}
+		},
+        {
+			"LogName": "Desert Festival Text Translation",  //1.6 update
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/desert_festival_tilesheet.zh-CN, Maps/desert_festival_tilesheet_text_international",
+			"FromFile": "assets/Maps/Translations/{{TargetWithoutPath}}.png",
+			"When": {
+				"Festivals": true,
+			}
+		},
+    
+	]
+}
