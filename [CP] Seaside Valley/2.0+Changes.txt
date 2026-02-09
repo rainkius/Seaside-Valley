@@ -1,3 +1,18 @@
+2.4 Changes:
+- Fixed Harvey's clinic sign so it's no longer a Red Cross
+
+------------------------------------------------------------------------------
+
+2.3 Changes:
+- Retextured the Bookseller's stall from 1.6 and added a toggle in the options for it
+
+------------------------------------------------------------------------------
+
+2.2 Changes:
+- Retextured the Hat Mouse House and added a toggle in the options for it
+
+------------------------------------------------------------------------------
+
 2.1 Changes:
 - Removed all interiors - they are now part of my Seaside Interiors mod
 - Added a blue version of the Joja building exterior (because I did a blue version of all the Joja stuff in the interiors mod... felt like I had to haha)

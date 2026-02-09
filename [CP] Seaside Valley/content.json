@@ -43,7 +43,13 @@
 			"Default": "true",
             "Description": "Fixes the snowy roof of the blacksmith to match the rounded tiles look of the other seasons. Color based on your environment recolor automatically.",
             "Section": "Town"
-		},  
+		},
+        "Bookseller": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Description": "The traveling bookseller's stall added in 1.6",
+            "Section": "Town"
+		},
         "ClinicStore": {
 			"AllowValues": "true, false",
 			"Default": "true",
@@ -51,6 +57,11 @@
             "Section": "Town"
 		},
         "CommunityCenter": {
+			"AllowValues": "true, false",
+			"Default": "true",
+            "Section": "Town"
+		},
+        "HatMouse": {
 			"AllowValues": "true, false",
 			"Default": "true",
             "Section": "Town"
@@ -400,6 +411,40 @@
             "PatchMode": "Overlay",
             "When": {
 			"Blacksmith": true
+			}
+        },
+        {
+            "LogName": "1.6 Bookseller",
+			"Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "LooseSprites/Cursors_1_6",
+            "FromFile": "assets/LooseSprites/Bookseller_Cursors_1_6.png",            
+            "When": {
+			"Bookseller": true
+			}
+        },
+        {
+            "LogName": "1.6 Bookseller shadow fix", //transparency fix 1
+			"Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "LooseSprites/Cursors_1_6",
+            "FromFile": "assets/LooseSprites/Bookseller_Cursors_1_6.png",
+            "FromArea": { "X": 94, "Y": 501, "Width": 1, "Height": 1 },
+			"ToArea": { "X": 94, "Y": 501, "Width": 1, "Height": 1 },
+            "When": {
+			"Bookseller": true
+			}
+        },
+        {
+            "LogName": "1.6 Bookseller streamers fix", //transparency fix 2
+			"Action": "EditImage",
+            "PatchMode": "Replace",
+            "Target": "LooseSprites/Cursors_1_6",
+            "FromFile": "assets/LooseSprites/Bookseller_Cursors_1_6.png",
+            "FromArea": { "X": 110, "Y": 468, "Width": 100, "Height": 19 },
+			"ToArea": { "X": 110, "Y": 468, "Width": 100, "Height": 19 },
+            "When": {
+			"Bookseller": true
 			}
         },
         {
@@ -1223,6 +1268,71 @@
         },
                 
     //Misc Edits
+        {
+            "LogName": "Hat Mouse - Town",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/HatMouse_town.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"HatMouse": true,
+            "Season": "spring, summer, fall"
+			}
+        },
+        {
+            "LogName": "Hat Mouse - Town - Winter",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_town",
+            "FromFile": "assets/Maps/HatMouse_town_winter.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"HatMouse": true,
+            "Season": "winter"
+			}
+        },
+        {
+            "LogName": "Hat Mouse - Outdoors",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/HatMouse_outdoors.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"HatMouse": true,
+            "Season": "spring, summer, fall"
+			}
+        },
+        {
+            "LogName": "Hat Mouse - Outdoors - Winter",
+			"Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/Maps/HatMouse_outdoors_winter.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"HatMouse": true,
+            "Season": "winter"
+			}
+        },
+        {
+            "LogName": "Hat Mouse - Cursors",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "LooseSprites/Cursors",
+            "FromFile": "assets/LooseSprites/HatMouse_Cursors.png",
+            "When": {
+			"HatMouse": true,
+			}
+        },
+        {
+            "LogName": "Hat Mouse - Cursors",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "LooseSprites/Cursors",
+            "FromFile": "assets/LooseSprites/Translations/HatMouse_Cursors.{{language}}.png",
+            "When": {
+			"HatMouse": true,
+            "Language": "de, fr, hu, it, ja, ko, pt, ru, tr, zh"  //Spanish has no hat mouse on cursors
+			}
+        },
         {
 		"LogName": "Sewer - Bug Area",
 		"Action": "Load",
