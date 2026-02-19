@@ -1181,6 +1181,16 @@
 			}
         },
         {
+            "LogName": "Sebastian Garage Cursors",
+			"Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/LooseSprites/Cursors_SebGarage.png",
+            "PatchMode": "Overlay",
+            "When": {
+			"Carpenter": true
+			}
+        },
+        {
             "LogName": "Carpenter Icicles",
 			"Action": "EditImage",
             "Target": "Maps/winter_outdoorsTileSheet",
